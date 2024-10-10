@@ -201,5 +201,9 @@ TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
 TARGET_INIT_VENDOR_LIB         := libinit_LH8n
 TARGET_RECOVERY_DEVICE_MODULES := libinit_LH8n
 
+# mtktsbattery
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone5/temp"
+TW_CUSTOM_BATTERY_PATH := "/sys/class/power_supply/battery/capacity"
+
 # Version
 TW_DEVICE_VERSION := naze | LH8n
