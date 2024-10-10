@@ -207,3 +207,7 @@ TW_CUSTOM_BATTERY_PATH := "/sys/class/power_supply/battery/capacity"
 
 # Version
 TW_DEVICE_VERSION := naze | LH8n
+
+# PBRP specific build flags
+PB_DISABLE_DEFAULT_DM_VERITY   := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
