@@ -7,9 +7,6 @@
 
 DEVICE_PATH := device/tecno/LH8n
 
-# For building with minimal manifest
-ALLOW_MISSING_DEPENDENCIES := true
-
 # Architecture
 TARGET_ARCH                := arm64
 TARGET_ARCH_VARIANT        := armv8-a
