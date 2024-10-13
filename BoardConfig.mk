@@ -207,8 +207,6 @@ TW_LOAD_VENDOR_BOOT_MODULES        := true
 TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
 
 #SHRP Prop
-# Official 
-SHRP_OFFICIAL := true
 
 # NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
 # Path of your SHRP Tree
@@ -232,9 +230,6 @@ SHRP_STATUSBAR_LEFT_PADDING := 40
 
 # For Notch devices [Optional]
 SHRP_NOTCH := true
-
-# SHRP Dark mode, use this flag to have dark theme set by default [Optional]
-SHRP_DARK := true
 
 # put this 0 if device has no EDL mode *
 SHRP_EDL_MODE := 0
